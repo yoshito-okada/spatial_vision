@@ -6,6 +6,10 @@ Pseudo-stereoscopic vision using a few IMUs & normal screen by synchronizing pan
 
 [![YouTube thumbnail](https://img.youtube.com/vi/iHE3QtvJ4Bo/sddefault.jpg)](https://youtu.be/iHE3QtvJ4Bo)
 
+## Materials
+
+[Slides from ROSCon2023](https://drive.google.com/file/d/1dMTVQiMMVgKC_KaRUlHMJ7CeOyWE1JDP/view?usp=share_link)
+
 ## Devices & Nodes
 
 The demonstratio system consists of three devices; an IMU installed on the user's head, a phone streaming the IMU measurement, and a PC controlling camera orientation in RViz. The phone also tracks the user's face using its camera for calibration. Once calibrated, the IMU can be used to track the user outside the camera's field of view. The devices, their built-in sensors, and processes (nodes) are connected as follows.
